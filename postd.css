@@ -1,0 +1,103 @@
+.containerd{
+    background-color:white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+/* start card */
+.cardd{
+    width: 65%;
+
+   border: 1px solid black;
+      display: inline-flex;
+}
+.imgdk{
+    width: 40%;
+margin-top: auto;
+margin-bottom: auto;
+padding: 1%;
+}
+
+.imgd{
+    width:96%;
+    text-align: left;
+
+    display: inline;}
+ 
+.texted{
+display: block;
+width: 60%;
+font-size: 190%;
+padding-left: 5%;
+margin: auto;
+}
+
+.titled{
+
+    font-family:	
+    Century Gothic;
+
+}
+.parad{
+    font-family:Arial narrow;
+}
+ul{
+font-family:Arial narrow;
+}
+.byd{
+    font-size: large;
+       padding-left: 10%; 
+       font-family: monospace;
+}
+@media (min-width: 1250px) {
+    .texted{
+        font-size: 175%;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1250px) {
+    .texted{
+        font-size: 150%;
+    }
+}
+
+@media (min-width: 800px) and (max-width: 1000px) {
+    .texted{
+        font-size: 115%;
+    }
+}
+
+@media (max-width: 800px) {
+   .containerd{
+       width: 95%;
+   }
+    .cardd{ width: 100%;}
+    .texted{
+     
+        font-size: 170%;
+    }
+ 
+}
+@media (min-width: 600px) and (max-width: 800px) {
+    .texted{
+        font-size: 150%;
+    }
+}
+@media (min-width: 400px) and (max-width: 600px) {
+    .texted{
+        font-size:100%;
+    }
+}
+@media (min-width: 200px) and (max-width: 400px) {
+    .texted{
+        font-size:100%;
+    }
+}
+@media (min-width: 100px) and (max-width: 200px) {
+    .texted{
+        font-size:80%;
+    }
+}
+
+
+/* end card*/
